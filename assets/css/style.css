@@ -1,0 +1,402 @@
+*{
+   margin: 0px;
+   padding: 0px;
+   box-sizing: border-box;
+   scroll-behavior: smooth;
+}
+
+body{
+    background-color: rgb(46, 79, 79);
+    font-family: 'Montserrat', sans-serif;
+}
+
+li, a, button{
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+} 
+
+header{
+    background-color: rgba(44, 51, 51, 0.8);
+    width: 100%;
+    position: sticky;
+    z-index: 10;
+    top: 0;
+    
+}
+
+.index-header{
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+    top: 0;
+}
+
+header .center{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 15px 0%;
+}
+
+#logo{
+    cursor: pointer;
+    margin-right: auto;
+}
+
+.nav-links{
+    list-style: none;
+}
+
+.nav-links li{
+    display: inline-block;
+    padding: 0px 15px;
+}
+
+.nav-links li a{
+    transition: all 0.3s ease 0s;
+}
+
+.nav-links li a:hover{
+    transition: all 0.3s ease 0s;
+    color: rgb(14, 131, 136);
+}
+
+button{
+    margin-left: 20px;
+    padding: 9px 25px;
+    background-color: rgb(14, 131, 136);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover{
+    background-color: rgba(0, 136, 169, 0.8);
+}
+
+.center{
+    margin: 0px auto;
+    width: 78%;
+}
+
+#background-photo{
+   width: 100%;
+   height: 100vh;
+   background-image: linear-gradient(rgba(0, 0, 0, 0.75),rgba(0, 0, 0, 0.75)), url(../images/DSC_2556.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   padding: 150px 0px 250px 0px;;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+   position: relative;
+   background-position: center;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+h1{
+    
+    text-align: center;
+    font-size: 50px;
+    color: rgb(150, 148, 148);
+    
+}
+
+#about{
+    position: relative;
+    padding: 50px 0px;
+}
+
+.about-container{
+    padding: 50px 0px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.about-container img{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+}
+
+.about-content-1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+
+.about-content-2{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+
+.about-content-3{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+
+.about-text{
+    width: 350px;
+}
+
+.about-text h3{
+    color: #171010;
+    font-size: 24px;
+    padding-bottom: 5px;
+}
+
+.slika-abt img{
+    width: 350px;
+    
+}
+
+#text{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#text p{
+    font-size: large;
+}
+
+#gallery-container{
+    padding: 50px 0px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+#gallery img{
+    width: 25%;
+    transition: all 500ms ease 0s;
+    object-fit: cover;
+    opacity: 0.8;
+}
+
+#gallery img:hover{
+    opacity: 1;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+    transform: scale(1.03);
+    
+}
+
+#gallery{
+    padding:50px 0px;
+}
+
+footer{
+    background-color: rgb(44, 51, 51);
+    position: absolute;
+    
+    width: 100%;
+    color: #edf0f1;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.index-footer{
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    z-index: 10;
+}
+
+
+.footer-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-container h3{
+    text-transform: capitalize;
+    font-weight: 500;
+    font-size: 1.3rem;
+    line-height: 3rem;
+}
+
+.footer-container p{
+    max-width: 600px;
+    margin: 3px auto;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 1rem 0;
+}
+
+.socials li{
+    margin: 0 10px;
+}
+
+.socials a{
+    text-decoration: none;
+    color: #edf0f1;
+}
+
+.socials a i{
+    font-size: 1.1rem;
+    transition: color 350ms ease;
+}
+
+.socials a:hover i{
+    color: aqua;
+}
+
+.footer-bottom{
+    background-color: black;
+    width: 100%;
+    padding: 6px 0;
+    text-align: center;
+
+}
+
+.footer-bottom p{
+    font-size: 12px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.footer-bottom span{
+    opacity: 0.4;
+    font-weight: 200;
+}
+
+.index-footer .footer-bottom {
+    background-color: transparent;
+}
+
+#author{
+    position: relative;
+    padding: 30px 0px;
+}
+
+.author-container{
+    padding: 50px 0px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.author-container img{
+    width: 300px;
+}
+
+.author-text h2{
+    color: rgb(14, 131, 136);
+    font-size: 36px;
+    padding: 5px 0px;
+}
+
+.author-text hr{
+    width: 60%;
+}
+
+.author-text p{
+    color: #edf0f1;
+    padding: 3px 0px;
+    text-align: left;
+    width: 60%;
+}
+
+#form{
+    padding: 30px;
+
+}
+
+.contact-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#form-container{
+    
+    height: 450px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+#contact{
+    font-family: 'Golos Text', sans-serif;
+    color:#1a1413;
+    text-align: center;
+    margin-bottom: 30px;
+}
+#formcont label{
+    display: block;
+    margin-bottom: 10px;
+    color:#1a1210;
+    font: 1em sans-serif;
+}
+
+#form-container label{
+    display: block;
+    margin-bottom: 10px;
+    color:#1a1210;
+    font: 1em sans-serif;
+
+}
+
+#form-container input, textarea{
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+#form-container input[type="submit"]{
+    background-color: rgb(46, 79, 79);
+    color: white;
+    cursor: pointer;
+}
+
+#form-container input[type="submit"]:hover{
+    background-color:rgb(14, 131, 136);
+}
+
+#map{
+    height: 450px;
+}
+#map iframe{
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+
+
+    
+
+
+
+
