@@ -44,6 +44,13 @@ header .center{
 #logo{
     cursor: pointer;
     margin-right: auto;
+    color: rgb(14, 131, 136);
+    text-shadow: 2px 2px rgb(14, 131, 136);
+}
+
+#logo a{
+    font-size: 16px;
+    font-weight: bolder;
 }
 
 .nav-links{
@@ -103,7 +110,6 @@ h1{
     text-align: center;
     font-size: 50px;
     color: rgb(150, 148, 148);
-    
 }
 
 #about{
@@ -162,7 +168,6 @@ h1{
 
 .slika-abt img{
     width: 350px;
-    
 }
 
 #text{
@@ -195,7 +200,6 @@ h1{
     opacity: 1;
     box-shadow: 0 0 10px rgba(0, 0, 0, 1);
     transform: scale(1.03);
-    
 }
 
 #gallery{
@@ -272,7 +276,6 @@ footer{
     width: 100%;
     padding: 6px 0;
     text-align: center;
-
 }
 
 .footer-bottom p{
@@ -292,7 +295,7 @@ footer{
 
 #author{
     position: relative;
-    padding: 30px 0px;
+    padding: 50px 0px;
 }
 
 .author-container{
@@ -300,7 +303,6 @@ footer{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-
 }
 
 .author-container img{
@@ -326,14 +328,12 @@ footer{
 
 #form{
     padding: 30px;
-
 }
 
 .contact-container{
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
 
 #form-container{
@@ -364,7 +364,6 @@ footer{
     margin-bottom: 10px;
     color:#1a1210;
     font: 1em sans-serif;
-
 }
 
 #form-container input, textarea{
