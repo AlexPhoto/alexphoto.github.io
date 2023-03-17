@@ -24,6 +24,7 @@ header{
     position: sticky;
     z-index: 10;
     top: 0;
+    backdrop-filter: blur(6px);
     
 }
 
@@ -70,6 +71,8 @@ header .center{
     transition: all 0.3s ease 0s;
     color: rgb(14, 131, 136);
 }
+
+
 
 button{
     margin-left: 20px;
@@ -209,7 +212,7 @@ h1{
 footer{
     background-color: rgb(44, 51, 51);
     position: absolute;
-    
+   
     width: 100%;
     color: #edf0f1;
     font-family: 'Montserrat', sans-serif;
@@ -221,6 +224,7 @@ footer{
     bottom: 0;
     z-index: 10;
 }
+
 
 
 .footer-container{
@@ -327,10 +331,11 @@ footer{
 }
 
 #form{
-    padding: 30px;
+    padding: 50px 0px;
 }
 
 .contact-container{
+    padding: 50px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
